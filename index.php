@@ -17,6 +17,6 @@ try {
     echo 'ERROR: ' . $e->getMessage();
 }
 
-echo 'Hello World!'
+echo 'Hello poop!'
 
 ?>
