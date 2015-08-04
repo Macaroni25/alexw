@@ -35,8 +35,8 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="active"><a href="index.php">Home</a></li>
-          <li class=""><a href="projects.php">Projects</a></li>
+      <li class=""><a href="index.php">Home</a></li>
+          <li class="active"><a href="projects.php">Projects</a></li>
            <li class=""><a href="projects.php">About</a></li>
       <li class="has-dropdown">
         <a href="#">Dropdown</a>
@@ -53,9 +53,36 @@
     </ul>
   </section>
 </nav>
-  
-  
-  
+  <table>
+  <thead>
+    <tr>
+      <th width="250">Project Name</th>
+      <th>Details</th>
+      <th width="<200></200>">Status</th>
+      <th width="200">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h5>Sebastain Realty Website</h5></td>
+      <td><p>Website I am making for Sebastain Realty INC.</p></td>
+      <td><p>in-progress</p></td>
+      <td><a class="button radius expand" href="../sebastainrealtywebsite/index.php">View Project</a></td>
+    </tr>
+    <tr>
+      <td>Content Goes Here</td>
+      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+      <td>Content Goes Here</td>
+      <td>Content Goes Here</td>
+    </tr>
+    <tr>
+      <td>Content Goes Here</td>
+      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+      <td>Content Goes Here</td>
+      <td>Content Goes Here</td>
+    </tr>
+  </tbody>
+</table>
   <!-- JS Scripts -->
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
