@@ -14,6 +14,7 @@
 
   <!-- If you are using the gem version, you need this only -->
   <link rel="stylesheet" href="css/app.css">
+   <link rel="stylesheet" href="style.css">
 
   <script src="js/vendor/modernizr.js"></script>
 
