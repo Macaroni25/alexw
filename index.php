@@ -16,3 +16,6 @@ try {
 } catch(PDOException $e) {
     echo 'ERROR: ' . $e->getMessage();
 }
+
+echo 'Hello World!'
+?>
