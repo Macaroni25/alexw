@@ -1,25 +1,18 @@
 <?php
 
-require_once 'config.php';
+$hostname = 'us-cdbr-azure-northcentral-a.cleardb.com';
+$user = 'b3262821ada9ac';
+$pass = 'cacb753a';
+$database = 'alexwdb';
 
-try {
-    $oConn = new PDO('mysql:host='.$sHost.';dbname='.$sDb, $sUsername, $sPassword);
-    $oConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-echo '1';
-    $oStmt = $oConn->prepare('SELECT \'data\' FROM \'hello_world\'');
-    $oResult = $oStmt->fetchAll();
-echo '2';
-    foreach ($oResult as $aRow) {
-        print_r($aRow['data']);
-        echo 'loop';
-    }
-echo '3';
-} catch(PDOException $e) {
-    echo 'ERROR: ' . $e->getMessage();
-    echo '4';
+$db_connection = new PDO( "mysql:host=" . $hostname . ";dbname=" . $database, $user, $pass );
+
+$results = $db_connection->query( 'SELECT data FROM hello_world' );
+
+foreach ( $results as $row ) {
+	echo '<p>' . $row['data'] . '</p>';
+
 }
 
-echo 'Hello World!';
-
-
-?>
+// Close the connection
+$db_connection = null;
