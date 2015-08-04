@@ -14,8 +14,10 @@
 
   <!-- If you are using the gem version, you need this only -->
   <link rel="stylesheet" href="css/app.css">
+     <link rel="stylesheet" href="style.css" />
 
   <script src="js/vendor/modernizr.js"></script>
+  
 
 </head>
 <body>
@@ -53,6 +55,7 @@
     </ul>
   </section>
 </nav>
+<div class="container">
   <table>
   <thead>
     <tr>
@@ -83,6 +86,7 @@
     </tr>
   </tbody>
 </table>
+</div>
   <!-- JS Scripts -->
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
