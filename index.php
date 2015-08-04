@@ -1,9 +1,11 @@
 <?php
 
-$hostname = 'us-cdbr-azure-northcentral-a.cleardb.com';
-$user = 'b3262821ada9ac';
-$pass = 'cacb753a';
-$database = 'alexwdb';
+require_once 'config.php';
+
+#$hostname = 'us-cdbr-azure-northcentral-a.cleardb.com';
+#$user = 'b3262821ada9ac';
+#$pass = 'cacb753a';
+#$database = 'alexwdb';
 
 $db_connection = new PDO( "mysql:host=" . $hostname . ";dbname=" . $database, $user, $pass );
 
