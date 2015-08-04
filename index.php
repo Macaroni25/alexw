@@ -8,6 +8,7 @@ try {
 echo '1';
     $oStmt = $oConn->prepare('SELECT data FROM `hello_world`');
     $oResult = $oStmt->fetchAll();
+    echo $oResult;
 echo '2';
     foreach ($oResult as $aRow) {
         print_r($aRow['data']);
@@ -20,5 +21,6 @@ echo '3';
 }
 
 echo 'Hello World!';
+
 
 ?>
