@@ -1,0 +1,44 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.card {
+  padding: 0px;
+}
+.card-content {
+  min-height: 250px;
+  max-height: 250px;
+}
+.biotitle {
+  padding: none;
+  margin: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-panel {
+  background-color: #29b6f6;
+
+}
+.card-panel orange {
+  background-color: orange;
+  padding: none;
+  margin: none;
+  max-height: 50px;
+}
+
+.link1:hover  {
+  color: orange;
+  text-decoration: none;
+}
