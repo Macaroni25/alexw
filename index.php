@@ -11,6 +11,7 @@ echo '1';
 echo '2';
     foreach ($oResult as $aRow) {
         print_r($aRow['data']);
+        echo 'loop';
     }
 echo '3';
 } catch(PDOException $e) {
