@@ -1,3 +1,6 @@
+#Configuration
+config.php
+
 # Composer
 vendor
 composer.phar
