@@ -6,7 +6,7 @@ try {
     $oConn = new PDO('mysql:host='.$sHost.';dbname='.$sDb, $sUsername, $sPassword);
     $oConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 echo '1';
-    $oStmt = $oConn->prepare('SELECT data FROM `hello_world`');
+    $oStmt = $oConn->prepare('SELECT data FROM hello_world');
     $oResult = $oStmt->fetchAll();
     echo $oResult[0];
 echo '2';
