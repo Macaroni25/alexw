@@ -5,7 +5,7 @@
 if ($Submit): ?>
 <?php
 $dbcnx = @mysql_connect( "us-cdbr-azure-northcentral-a.cleardb.com","b3262821ada9ac","cacb753a");
-mysql_select_db("projects");
+mysql_select_db("alexwdb");
 $inssql = "INSERT INTO projects SET " .
 "name='$name', " .
 "description='$description', " .
