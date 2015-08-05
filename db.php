@@ -23,8 +23,23 @@ $results = $db_connection->query( 'SELECT name  FROM projects' );
 
 foreach ( $results as $row ) {
 	echo '<tr><th>' . $row['name'] . '</th></tr>';
+}
+
+$results = $db_connection->query( 'SELECT name  FROM projects' );
+
+foreach ( $results as $row ) {
         echo '<tr><th>' . $row['description'] . '</th></tr>';
+}
+
+$results = $db_connection->query( 'SELECT name  FROM projects' );
+
+foreach ( $results as $row ) {
         echo '<tr><th>' . $row['status'] . '</th></tr>';
+}
+
+$results = $db_connection->query( 'SELECT name  FROM projects' );
+
+foreach ( $results as $row ) {
         echo '<tr><th>' . $row['link'] . '</th></tr>';
 
 }
