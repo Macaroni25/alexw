@@ -16,10 +16,10 @@ require_once 'config.php';
 
 $db_connection = new PDO( "mysql:host=" . $hostname . ";dbname=" . $database, $user, $pass );
 
-$results = $db_connection->query( 'SELECT data FROM hello_world' );
+$results = $db_connection->query( 'SELECT name  FROM projects' );
 
 foreach ( $results as $row ) {
-	echo '<tr><th>' . $row['data'] . '</th></tr>';
+	echo '<tr><th>' . $row['name'] . '</th></tr>';
 
 }
 
