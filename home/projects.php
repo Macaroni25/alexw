@@ -93,7 +93,7 @@ foreach ( $results as $row ) {
 $results = $db_connection->query( 'SELECT link  FROM projects' );
 
 foreach ( $results as $row ) {
-	echo '<th>' . $row['link'] . '</th> </tr>';
+	echo '<th>' . '<a href="' . $row['link'] . '">'. 'Go to project</a></th></tr>';
 }
 
 echo '</tbody></table>';
