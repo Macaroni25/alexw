@@ -22,7 +22,7 @@ echo "<tr>";
 echo "<td>" . $row['name'] . "</td>";
 echo "<td>" . $row['description'] . "</td>";
 echo "<td>" . $row['status'] . "</td>";
-echo "<td>" . $row['link'] . "</td>";
+echo "<td>" . '<a href="' . $row['link'] .'">Go to Project</a>' . "</td>";
 echo "</tr>";
 }
 echo "</table>";
