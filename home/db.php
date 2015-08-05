@@ -8,10 +8,6 @@
           </tr>
         </thead>
         <tbody>
-      
-            
-    
-
 <?php
 
 require_once 'config.php';
