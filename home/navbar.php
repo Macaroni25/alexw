@@ -18,7 +18,7 @@
               <a href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li>
-              <a href="projects.html">Projects</a>
+              <a href="projects.php">Projects</a>
             </li>
             <li>
               <a href="about.html">About</a>
