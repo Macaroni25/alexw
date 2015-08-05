@@ -5,7 +5,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+      
             
     
 
@@ -19,7 +19,7 @@ $db_connection = new PDO( "mysql:host=" . $hostname . ";dbname=" . $database, $u
 $results = $db_connection->query( 'SELECT data FROM hello_world' );
 
 foreach ( $results as $row ) {
-	echo '<th>' . $row['data'] . '</th>';
+	echo '<tr><th>' . $row['data'] . '</th></tr>';
 
 }
 
@@ -27,6 +27,6 @@ foreach ( $results as $row ) {
 // Close the connection
 $db_connection = null;
 ?>
-    </tr>
+  
         </tbody>
       </table>
