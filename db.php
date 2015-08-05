@@ -32,12 +32,12 @@ foreach ( $results as $row ) {
 $results = $db_connection->query( 'SELECT status  FROM projects' );
 
 foreach ( $results as $row ) {
-	echo '<tr> <th>' . $row['status'] . '</th>';
+	echo '<th>' . $row['status'] . '</th>';
 }
 $results = $db_connection->query( 'SELECT link  FROM projects' );
 
 foreach ( $results as $row ) {
-	echo '<tr> <th>' . $row['link'] . '</th></tr>';
+	echo '<th>' . $row['link'] . '</th> </tr>';
 }
 
 
