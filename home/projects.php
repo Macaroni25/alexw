@@ -61,7 +61,7 @@
 <div class="container">
      
 
-<table class="table-bordered">
+<table class="table table-bordered">
 
 <?php
 $con=mysqli_connect("us-cdbr-azure-northcentral-a.cleardb.com","b3262821ada9ac","cacb753a","alexwdb");
