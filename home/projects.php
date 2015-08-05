@@ -95,6 +95,15 @@ mysqli_close($con);
 ?>
   </table>
  </div>
+ <?php
+   
+   echo 'Add new project';
+   include 'addproject.php';
+   
+   
+   
+   
+   ?>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
