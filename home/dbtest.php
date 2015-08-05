@@ -12,6 +12,8 @@ echo "<table border='1'>
 <tr>
 <th>Project Name</th>
 <th>Description</th>
+<th>Status</th>
+<th>Link</th>
 </tr>";
 
 while($row = mysqli_fetch_array($result))
@@ -19,6 +21,8 @@ while($row = mysqli_fetch_array($result))
 echo "<tr>";
 echo "<td>" . $row['name'] . "</td>";
 echo "<td>" . $row['description'] . "</td>";
+echo "<td>" . $row['status'] . "</td>";
+echo "<td>" . $row['link'] . "</td>";
 echo "</tr>";
 }
 echo "</table>";
