@@ -1,4 +1,4 @@
-# My PHP and mySQL website powered by Azure\
+# My PHP and mySQL website powered by Azure
 
 ### How
 
