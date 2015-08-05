@@ -1,4 +1,4 @@
- <!DOCTYPE html/php>
+ <!DOCTYPE html>
 <html lang="en">
   
   <head>
@@ -58,10 +58,10 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container-fluid">
+<div class="container">
      
 
-
+<table class="table-bordered">
 
 <?php
 $con=mysqli_connect("us-cdbr-azure-northcentral-a.cleardb.com","b3262821ada9ac","cacb753a","alexwdb");
@@ -74,7 +74,6 @@ echo "Failed to connect to MySQL: " . mysqli_connect_error();
 $result = mysqli_query($con,"SELECT * FROM projects");
 
 echo '
-<table class="table-bordered">
 <tr>
 <th>Project Name</th>
 <th>Description</th>
@@ -91,10 +90,9 @@ echo "<td>" . $row['status'] . "</td>";
 echo "<td>" . '<a href="' . $row['link'] .'">Go to Project</a>' . "</td>";
 echo "</tr>";
 }
-echo "</table>";
 
 mysqli_close($con);
 ?>
-  
+  </table>
  </div>
 </body>
