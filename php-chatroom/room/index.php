@@ -54,7 +54,7 @@
     
     	<div id="header">
     	
-        	<h1><a href="/examples/Chat2/">Chat v2</a></h1>
+
         	
         	<div id="you"><span>Logged in as:</span> <?php echo $_SESSION['userid']?></div>
         	

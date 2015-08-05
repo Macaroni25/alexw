@@ -10,7 +10,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Chat2</title>
+    <title>Chat Room</title>
     
     <link rel="stylesheet" type="text/css" href="main.css" />
     
@@ -23,7 +23,7 @@
     <div id="page-wrap"> 
     
     	<div id="header">
-        	<h1><a href="/examples/Chat2/">Chat v2</a></h1>
+
         </div>
         
     	<div id="section">
