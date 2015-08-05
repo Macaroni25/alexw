@@ -70,7 +70,7 @@
         <tbody>
 <?php
 
-require_once 'config.php';
+require_once '../config.php';
 
 
 $db_connection = new PDO( "mysql:host=" . $hostname . ";dbname=" . $database, $user, $pass );
