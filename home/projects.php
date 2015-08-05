@@ -18,6 +18,7 @@
     <![endif]-->
   </head>
  
+ <body>
 
  <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -72,7 +73,8 @@ echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
 $result = mysqli_query($con,"SELECT * FROM projects");
 
-echo "<table table-border>
+echo "
+<table table-bordered>
 <tr>
 <th>Project Name</th>
 <th>Description</th>
@@ -95,4 +97,4 @@ mysqli_close($con);
 ?>
   
  
-</div>
+</body>
