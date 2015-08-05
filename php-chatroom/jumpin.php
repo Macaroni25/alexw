@@ -55,7 +55,7 @@
     		    			
     			$_SESSION['userid'] = $username;
     		
-    		    header('Location: ./chatrooms.php');
+    		    header('Location: chatrooms.php');
     	
     		} else {
     			

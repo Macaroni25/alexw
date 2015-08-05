@@ -5,7 +5,7 @@ define(USERNAME, 'b3262821ada9ac');
 define(PASSWORD, 'cacb753a');
 
    mysql_connect( HOST, USERNAME, PASSWORD) or die("Could not connect");
-   mysql_select_db ("chat2_db")or die('Cannot connect to the database because: ' . mysql_error());
+   mysql_select_db ("alexwdb")or die('Cannot connect to the database because: ' . mysql_error());
 
 //functions
 function checkVar($var)
