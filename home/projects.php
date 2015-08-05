@@ -73,14 +73,14 @@ echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
 $result = mysqli_query($con,"SELECT * FROM projects");
 
-echo "
+echo '
 <table class="table-bordered">
 <tr>
 <th>Project Name</th>
 <th>Description</th>
 <th>Status</th>
 <th>Link</th>
-</tr>";
+</tr>';
 
 while($row = mysqli_fetch_array($result))
 {
