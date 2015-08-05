@@ -58,50 +58,40 @@
 </nav>
 
 <div class="container-fluid">
-<table class="table table-bordered">
-        <thead>
-          <tr>
-            <th>Project Name</th>
-            <th>Description</th>
-            <th>Status</th>
-            <th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+     
+
+
+
 <?php
-
-require_once '../config.php';
-
-
-$db_connection = new PDO( "mysql:host=" . $hostname . ";dbname=" . $database, $user, $pass );
-
-$results = $db_connection->query( 'SELECT name  FROM projects' );
-
-foreach ( $results as $row ) {
-	echo '<tr> <th>' . $row['name'] . '</th>';
-}
-$results = $db_connection->query( 'SELECT description  FROM projects' );
-
-foreach ( $results as $row ) {
-	echo '<th>' . $row['description'] . '</th>';
-}
-$results = $db_connection->query( 'SELECT status  FROM projects' );
-
-foreach ( $results as $row ) {
-	echo '<th>' . $row['status'] . '</th>';
-}
-$results = $db_connection->query( 'SELECT link  FROM projects' );
-
-foreach ( $results as $row ) {
-	echo '<th>' . '<a href="' . $row['link'] . '">'. 'Go to project</a></th></tr>';
+$con=mysqli_connect("us-cdbr-azure-northcentral-a.cleardb.com","b3262821ada9ac","cacb753a","alexwdb");
+// Check connection
+if (mysqli_connect_errno())
+{
+echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-echo '</tbody></table>';
-echo '</div>';
+$result = mysqli_query($con,"SELECT * FROM projects");
 
+echo "<table table-border>
+<tr>
+<th>Project Name</th>
+<th>Description</th>
+<th>Status</th>
+<th>Link</th>
+</tr>";
 
-// Close the connection
-$db_connection = null;
+while($row = mysqli_fetch_array($result))
+{
+echo "<tr>";
+echo "<td>" . $row['name'] . "</td>";
+echo "<td>" . $row['description'] . "</td>";
+echo "<td>" . $row['status'] . "</td>";
+echo "<td>" . '<a href="' . $row['link'] .'">Go to Project</a>' . "</td>";
+echo "</tr>";
+}
+echo "</table>";
+
+mysqli_close($con);
 ?>
   
  
