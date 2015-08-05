@@ -1,9 +1,9 @@
 * { margin: 0; padding: 0; }
-body { font: 14px/1.4 Georgia, Serif; background: url(images/bg.jpg); color: white; }
+
 
 #page-wrap { margin: 0 auto; width: 600px; position: relative; }
 
-#header h1 a { display: block; width: 173px; height: 79px; background: url(images/logo.jpg) no-repeat; text-indent: -9999px; }
+
 
 h1,h2,h3 { margin: 0 0 20px 0; font-weight: normal; }
 h1 { font-size: 36px; }
