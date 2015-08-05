@@ -96,11 +96,13 @@ foreach ( $results as $row ) {
 	echo '<th>' . $row['link'] . '</th> </tr>';
 }
 
+echo '</tbody></table>';
+echo '</div>';
+
 
 // Close the connection
 $db_connection = null;
 ?>
   
-        </tbody>
-    </table>
+ 
 </div>
