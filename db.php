@@ -1,7 +1,10 @@
 <table class="table table-bordered">
         <thead>
           <tr>
-            <th>Text</th>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Link</th>
           </tr>
         </thead>
         <tbody>
@@ -20,6 +23,9 @@ $results = $db_connection->query( 'SELECT name  FROM projects' );
 
 foreach ( $results as $row ) {
 	echo '<tr><th>' . $row['name'] . '</th></tr>';
+        echo '<tr><th>' . $row['description'] . '</th></tr>';
+        echo '<tr><th>' . $row['status'] . '</th></tr>';
+        echo '<tr><th>' . $row['link'] . '</th></tr>';
 
 }
 
