@@ -11,8 +11,7 @@ foreach ( $results as $row ) {
 	echo '<p>' . $row['data'] . '</p>';
 
 }
-$sql = "INSERT INTO hello_world (data)
- VALUES ('hi')";
+
 
 // Close the connection
 $db_connection = null;

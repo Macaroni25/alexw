@@ -1,8 +1,8 @@
 <?php
 //Connection Page
-define(HOST, 'localhost');
-define(USERNAME, 'db_user');
-define(PASSWORD, 'db_password');
+define(HOST, 'us-cdbr-azure-northcentral-a.cleardb.com');
+define(USERNAME, 'b3262821ada9ac');
+define(PASSWORD, 'cacb753a');
 
    mysql_connect( HOST, USERNAME, PASSWORD) or die("Could not connect");
    mysql_select_db ("chat2_db")or die('Cannot connect to the database because: ' . mysql_error());
