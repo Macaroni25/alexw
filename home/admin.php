@@ -58,7 +58,7 @@
 </nav>
 <div class="container">
      
-
+<form action="" method="post">
 <table class="table table-bordered">
 
 <?php
@@ -77,6 +77,7 @@ echo '
 <th>Description</th>
 <th>Status</th>
 <th>Link</th>
+<th>Delete</th>
 </tr>';
 
 while($row = mysqli_fetch_array($result))
@@ -86,12 +87,14 @@ echo "<td>" . $row['name'] . "</td>";
 echo "<td>" . $row['description'] . "</td>";
 echo "<td>" . $row['status'] . "</td>";
 echo "<td>" . '<a href="' . $row['link'] .'">Go to Project</a>' . "</td>";
+echo "<td>" . "<button type="button" onclick="">Click Me!</button> "
 echo "</tr>";
 }
 
 mysqli_close($con);
 ?>
   </table>
+  </form>
  </div>
 <?php if (($_SERVER['HTTP_REFERER']=="http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']) && (!empty($_POST))){ extract($_POST);} ?>
 <html><head></head><body>
