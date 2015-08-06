@@ -77,7 +77,6 @@ echo '
 <th>Description</th>
 <th>Status</th>
 <th>Link</th>
-<th>Delete</th>
 </tr>';
 
 while($row = mysqli_fetch_array($result))
@@ -87,11 +86,11 @@ echo "<td>" . $row['name'] . "</td>";
 echo "<td>" . $row['description'] . "</td>";
 echo "<td>" . $row['status'] . "</td>";
 echo "<td>" . '<a href="' . $row['link'] .'">Go to Project</a>' . "</td>";
-echo "<td>" . "<button type="button" onclick="">Click Me!</button> "
 echo "</tr>";
 }
 
 mysqli_close($con);
+
 ?>
   </table>
   </form>
