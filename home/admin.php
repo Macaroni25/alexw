@@ -86,7 +86,7 @@ echo "<td>" . $row['name'] . "</td>";
 echo "<td>" . $row['description'] . "</td>";
 echo "<td>" . $row['status'] . "</td>";
 echo "<td>" . '<a href="' . $row['link'] .'">Go to Project</a>' . "</td>";
-echo '<td><input type="submit" name="deleteItem" value="'.$row['id'].'" /></td>"';
+echo '<td><input type="submit" name="deleteItem" value="'. $row['name'] . '" /></td>"';
 echo "</tr>";
 }
 
