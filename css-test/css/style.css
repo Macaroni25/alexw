@@ -1,12 +1,12 @@
 .nodebutton {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  border: 2px solid rgb(51, 51, 51);;
+  border: 2px solid rgb(51, 51, 51);
   padding: 10px;
   text-decoration: none;
-  background-color: #ffbb00;
+  background-color: #b5ffbc;
   margin: 15px;
-  color: rgb(51, 51, 51);;
+  color: rgb(51, 51, 51);
 font-family: 'Source Sans Pro', sans-serif;
 font-weight: 700;
 }
@@ -22,20 +22,50 @@ font-weight: 700;
   padding: 10px;
   text-decoration: none;
   margin: 15px;
-  color: #ffbb00;
+  color: #b5ffbc;
   background-color: rgb(51, 51, 51);
 
 }
 
 .container {
-  margin: 15;
+  padding: 10px;
+  margin: 15px;
+
 }
 
 body {
-  background: #ffbb00;
+  background: #b5ffbc;
 }
 
-.nodetext {
+.text {
      font-family: 'Source Sans Pro', sans-serif;
-     font-weight: 400;
+     font-weight: 700;
+       color: rgb(51, 51, 51);
+    
 } 
+
+.navbar {
+  margin-top: 5px;
+  padding: 20px;
+  text-align: center;
+ 
+ 
+  
+}
+
+.textbox {
+  border: solid;
+  border-width: 2px;
+    border-color: rgb(51, 51, 51);
+    -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 15px;
+}
+
+.title {
+       font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 700;
+       color: rgb(51, 51, 51);
+       font-size: 32px;
+       text-align: center;
+}
