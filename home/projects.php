@@ -12,14 +12,14 @@
   </head>
  
  <body>
-<div class="nav">
+
  <nav class="navbar">
 				<a id="" class="nodebutton" href="index.php">Home</a>
 				<a id="" class="nodebutton" href="projects.php">Projects</a>
 				<a id="" class="nodebutton" href="#">About</a>
 			</nav>
-</div>
-<div class="container">
+
+<div class="container center">
      <h1 class="title">Projects</h1>
 <table>
 

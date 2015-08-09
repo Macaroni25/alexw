@@ -10,15 +10,22 @@
 	<body>
 		 
 		<nav class="navbar">
-			<a id="" class="nodebutton" href="index.php">Home</a>
-			<a id="" class="nodebutton" href="projects.php">Projects</a>
-			<a id="" class="nodebutton" href="#">About</a>
+			<a id="" class="nodebutton" href="#top">Home</a>
+			<a id="" class="nodebutton" href="#projects">Projects</a>
+			<a id="" class="nodebutton" href="#about">About</a>
 		</nav>
 		</div>
 		<div class="container center">
 			<h1 id="1" class="title">This is my website.</h1>
 			<div id="1" class="textbox">
 				<p class="text">Hello, World!</p>
+			</div>
+			<div class="container center">
+			<h1 class="title">Projects</h1>
+			<div class="textbox">
+			<?php
+				include projects.php
+				?>
 			</div>
 		</div>
 	</body>
