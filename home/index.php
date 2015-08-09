@@ -10,14 +10,14 @@
 	<body>
 		 
 		<nav class="navbar">
-			<a id="" class="nodebutton" href="#top">Home</a>
-			<a id="" class="nodebutton" href="#projects">Projects</a>
-			<a id="" class="nodebutton" href="#about">About</a>
+			<a class="nodebutton" href="#top">Home</a>
+			<a class="nodebutton" href="#projects">Projects</a>
+			<a class="nodebutton" href="#about">About</a>
 		</nav>
 		</div>
 		<div class="container center">
-			<h1 id="1" class="title" name="top">This is my website.</h1>
-			<div id="1" class="textbox">
+			<h1 class="title" name="top">This is my website.</h1>
+			<div class="textbox">
 				<p class="text">Hello, World!</p>
 			</div>
 			<div class="container center">
