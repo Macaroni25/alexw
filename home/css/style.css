@@ -1,3 +1,8 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
 .nodebutton {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -28,6 +33,7 @@
 
 .container {
   padding: 10px;
+  margin: none;
 
 }
 
@@ -39,7 +45,7 @@
 }
 
 .navbar {
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 20px; 
   text-align: center;
 
@@ -52,6 +58,7 @@
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   padding: 15px;
+  margin: none;
 }
 
 .title {
@@ -96,8 +103,23 @@ th {
 
 .green {
   background-color: #b5ffbc;
+  margin: none;
+  width: 100%;
+  min-height: 800px;
 }
 
 .grey {
     background-color: rgb(51, 51, 51);
+    margin: none;
+    width: 100%;
+    min-height: 800px;
+}
+
+
+.grey .title {
+  color: #b5ffbc;
+}
+
+.grey .textbox {
+   #b5ffbc;
 }
