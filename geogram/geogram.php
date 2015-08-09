@@ -44,7 +44,7 @@ if (!empty($_GET['location'])){
     <?php
     if(!empty($instagram_array)){
       foreach($instagram_array['data'] as $key=>$image){
-        echo '<div class="textbox"><img src="'.$image['images']['low_resolution']['url'].'" alt=""/></div>';
+        echo '<div class="picbox"><img src="'.$image['images']['low_resolution']['url'].'" alt=""/></div>';
       }
     }
     ?>
