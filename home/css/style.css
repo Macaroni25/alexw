@@ -73,3 +73,7 @@ body {
 .center {
   text-align: center;
 }
+
+.nodetable {
+  border: 2px, solid, rgb(51, 51, 51);
+}
