@@ -121,5 +121,11 @@ th {
 }
 
 .grey .textbox {
-   #b5ffbc;
+   color: #b5ffbc;
+   border-color: #b5ffbc;
+}
+
+.grey .nodetable {
+    color: #b5ffbc;
+   border-color: #b5ffbc;
 }
