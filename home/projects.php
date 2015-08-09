@@ -13,15 +13,6 @@
  
  <body>
 
- <nav class="navbar">
-				<a id="" class="nodebutton" href="index.php">Home</a>
-				<a id="" class="nodebutton" href="projects.php">Projects</a>
-				<a id="" class="nodebutton" href="#">About</a>
-			</nav>
-
-<div class="container center">
-     <h1 class="title">Projects</h1>
-<table>
 
 <?php
 $con=mysqli_connect("us-cdbr-azure-northcentral-a.cleardb.com","b3262821ada9ac","cacb753a","alexwdb");
