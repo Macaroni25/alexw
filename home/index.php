@@ -28,6 +28,14 @@
 				?>
 			
 		</div>
+		<div class="container center">
+			<h1 class="title"><a name="about">About<a></h1>
+			
+			<?php
+				include 'about.html';
+				?>
+			
+		</div>
 	</body>
 
 </html>
