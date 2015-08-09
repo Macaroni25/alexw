@@ -15,7 +15,7 @@
  <body>
 
  <nav class="navbar">
-				<a id="" class="nodebutton" href="index.html">Home</a>
+				<a id="" class="nodebutton" href="index.php">Home</a>
 				<a id="" class="nodebutton" href="projects.php">Projects</a>
 				<a id="" class="nodebutton" href="#">About</a>
 			</nav>
