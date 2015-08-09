@@ -105,14 +105,14 @@ th {
   background-color: #b5ffbc;
   margin: none;
   width: 100%;
-  min-height: 800px;
+  min-height: 750px;
 }
 
 .grey {
     background-color: rgb(51, 51, 51);
     margin: none;
     width: 100%;
-    min-height: 800px;
+    min-height: 750px;
 }
 
 
@@ -128,4 +128,30 @@ th {
 .grey .nodetable {
     color: #b5ffbc;
    border-color: #b5ffbc;
+}
+.anchor {
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 2px solid rgb(51, 51, 51);
+  padding: 10px;
+  text-decoration: none;
+  background-color: #b5ffbc;
+  margin: 15px;
+  color: rgb(51, 51, 51);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+.anchor:hover {
+    background-color: rgb(51, 51, 51);
+  border: 1px solid rgb(51, 51, 51);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 2px solid rgb(51, 51, 51);
+  padding: 10px;
+  text-decoration: none;
+  margin: 15px;
+  color: #b5ffbc;
+  background-color: rgb(51, 51, 51);
 }

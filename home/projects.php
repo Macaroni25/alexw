@@ -16,7 +16,7 @@
  
 
 
-<table>
+<table class="nodetable">
 
 <?php
 $con=mysqli_connect("us-cdbr-azure-northcentral-a.cleardb.com","b3262821ada9ac","cacb753a","alexwdb");
