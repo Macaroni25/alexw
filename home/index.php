@@ -22,11 +22,11 @@
 			</div>
 			<div class="container center">
 			<h1 class="title" name="projects">Projects</h1>
-			<div class="textbox">
+			
 			<?php
 				include 'projects.php';
 				?>
-			</div>
+			
 		</div>
 	</body>
 
