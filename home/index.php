@@ -10,7 +10,7 @@
 		<script type="text/javascript"" src="smooth.pack.js"></script>
 	</head>
 	<body>
-		<div class="green">
+		
 			<nav class="navbar">
 				<a class="anchor" id="down1" href="#top">Home</a>
 				<a class="anchor" id="down1" href="#projects">Projects</a>
@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			</div>
-			<div class="grey">
+		
 				<div class="container center">
 					<h1 class="title">
 						<a name="projects" id="projects">Projects<a></h1>
@@ -32,9 +32,9 @@
 				include 'projects.php';
 				?>
 			
+	
 		</div>
-		</div>
-		<div class="green">
+
 		<div class="container center">
 			<h1 class="title"><a name="about" id="about">About</a></h1>
 			<div class="textbox">
