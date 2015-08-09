@@ -8,11 +8,13 @@
 		<title>CSS Testing</title>
 	</head>
 	<body>
+		 <nav class="navbar">
 		<nav class="navbar">
 			<a id="" class="nodebutton" href="index.html">Home</a>
 			<a id="" class="nodebutton" href="projects.php">Projects</a>
 			<a id="" class="nodebutton" href="#">About</a>
 		</nav>
+		</div>
 		<div class="container">
 			<h1 id="1" class="title">This is my website.</h1>
 			<div id="1" class="textbox">
