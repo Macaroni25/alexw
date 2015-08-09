@@ -80,6 +80,7 @@ body {
      font-weight: 700;
        color: rgb(51, 51, 51);
        padding: 15px;
+       border-collapse: collapse;
        
 }
 tr, td, th {
@@ -88,5 +89,5 @@ tr, td, th {
      font-weight: 700;
        color: rgb(51, 51, 51);
        padding: 15px;
-       
+         border: 2px, solid, rgb(51, 51, 51);
 }
