@@ -21,7 +21,7 @@
 			</nav>
 
 <div class="container">
-     
+     <h1 class="title">Projects</h1>
 <table>
 
 <?php
