@@ -60,7 +60,7 @@ body {
   -webkit-border-radius: 3px;
   padding: 15px;
   margin: 10px;
-  display: inline-block;
+
 }
 
 .title {
@@ -156,4 +156,15 @@ th {
   margin: 15px;
   color: #b5ffbc;
   background-color: rgb(51, 51, 51);
+}
+
+.picbox {
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(51, 51, 51);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
 }
