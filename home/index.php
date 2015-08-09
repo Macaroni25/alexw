@@ -30,11 +30,12 @@
 		</div>
 		<div class="container center">
 			<h1 class="title"><a name="about">About<a></h1>
+			<div class="textbox">
 			
 			<?php
 				include 'about.html';
 				?>
-			
+			</div>
 		</div>
 	</body>
 
