@@ -7,14 +7,14 @@
   background-color: #b5ffbc;
   margin: 15px;
   color: rgb(51, 51, 51);
-font-family: 'Source Sans Pro', sans-serif;
-font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
 }
 
 .nodebutton:hover {
-    background-color: rgb(51, 51, 51);
-     border: 1px solid rgb(51, 51, 51);
-   font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(51, 51, 51);
+  border: 1px solid rgb(51, 51, 51);
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -24,13 +24,11 @@ font-weight: 700;
   margin: 15px;
   color: #b5ffbc;
   background-color: rgb(51, 51, 51);
-
 }
 
 .container {
   padding: 10px;
   margin: 15px;
-
 }
 
 body {
@@ -38,36 +36,32 @@ body {
 }
 
 .text {
-     font-family: 'Source Sans Pro', sans-serif;
-     font-weight: 700;
-       color: rgb(51, 51, 51);
-    
-} 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+}
 
 .navbar {
   margin-top: 5px;
   padding: 20px;
   text-align: center;
- 
- 
-  
 }
 
 .textbox {
   border: solid;
   border-width: 2px;
-    border-color: rgb(51, 51, 51);
-    -moz-border-radius: 3px;
+  border-color: rgb(51, 51, 51);
+  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   padding: 15px;
 }
 
 .title {
-       font-family: 'Source Sans Pro', sans-serif;
-     font-weight: 700;
-       color: rgb(51, 51, 51);
-       font-size: 32px;
-       text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  font-size: 32px;
+  text-align: center;
 }
 
 .center {
@@ -77,17 +71,27 @@ body {
 table {
   border: 2px, solid, rgb(51, 51, 51);
   font-family: 'Source Sans Pro', sans-serif;
-     font-weight: 700;
-       color: rgb(51, 51, 51);
-       padding: 15px;
-       border-collapse: collapse;
-       
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  padding: 15px;
+  border-collapse: collapse;
 }
-table, tr, td, th {
 
+table,
+tr,
+td,
+th {
   font-family: 'Source Sans Pro', sans-serif;
-     font-weight: 700;
-       color: rgb(51, 51, 51);
-       padding: 15px;
-         border: 2px, solid, rgb(51, 51, 51);
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  padding: 25px;
+  border: solid;
+  border-color: rgb(51, 51, 51);
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-align: center;
+  width: 1200px;
+}
+th {
+  font-size: 28px;
 }
