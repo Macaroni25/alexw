@@ -21,7 +21,7 @@
 				<p class="text">Hello, World!</p>
 			</div>
 			<div class="container center">
-			<h1 class="title" name="projects">Projects</h1>
+			<h1 class="title"><a name="projects">Projects<a></h1>
 			
 			<?php
 				include 'projects.php';
