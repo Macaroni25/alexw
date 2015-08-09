@@ -82,3 +82,11 @@ body {
        padding: 15px;
        
 }
+tr, td, th {
+
+  font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 700;
+       color: rgb(51, 51, 51);
+       padding: 15px;
+       
+}
