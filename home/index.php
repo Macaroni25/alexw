@@ -36,7 +36,7 @@
 		</div>
 		<div class="green">
 		<div class="container center">
-			<h1 class="title"><a name="about" id="about">About<a></h1>
+			<h1 class="title"><a name="about" id="about">About</a></h1>
 			<div class="textbox">
 			
 			<?php
