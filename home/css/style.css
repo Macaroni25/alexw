@@ -31,9 +31,6 @@
 
 }
 
-body {
-  background: #b5ffbc;
-}
 
 .text {
   font-family: 'Source Sans Pro', sans-serif;
@@ -95,4 +92,12 @@ th {
 }
 th {
   font-size: 28px;
+}
+
+.green {
+  background-color: #b5ffbc;
+}
+
+.grey {
+    background-color: rgb(51, 51, 51);
 }

@@ -20,6 +20,7 @@
 			<div class="textbox">
 				<p class="text">Hello, World!</p>
 			</div>
+			<div class="green">
 			<div class="container center">
 			<h1 class="title"><a name="projects">Projects<a></h1>
 			
@@ -28,6 +29,8 @@
 				?>
 			
 		</div>
+		</div>
+		<div class="grey">
 		<div class="container center">
 			<h1 class="title"><a name="about">About<a></h1>
 			<div class="textbox">
@@ -35,6 +38,7 @@
 			<?php
 				include 'about.html';
 				?>
+			</div>
 			</div>
 		</div>
 	</body>
