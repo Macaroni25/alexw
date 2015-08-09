@@ -16,12 +16,12 @@
 		</nav>
 		</div>
 		<div class="container center">
-			<h1 id="1" class="title">This is my website.</h1>
+			<h1 id="1" class="title" name="top">This is my website.</h1>
 			<div id="1" class="textbox">
 				<p class="text">Hello, World!</p>
 			</div>
 			<div class="container center">
-			<h1 class="title">Projects</h1>
+			<h1 class="title" name="projects">Projects</h1>
 			<div class="textbox">
 			<?php
 				include projects.php
