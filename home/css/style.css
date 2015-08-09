@@ -44,8 +44,9 @@ body {
 .navbar {
   margin-top: 5px;
   padding: 20px;
+  position: fixed;  
   text-align: center;
-  position: fixed;
+   background-color: #b5ffbc;
 }
 
 .textbox {
