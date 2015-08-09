@@ -1,14 +1,13 @@
  <!DOCTYPE html>
-<html lang="en">
+
   
   <head>
+    <html lang="en">
     <meta charset="utf-8">
-  
-   
     <title>Home</title>
-    
-
+    		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,300,200' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
+    		<script type="text/javascript" language="Javascript" src="js/main.js"></script>
 
   </head>
  
