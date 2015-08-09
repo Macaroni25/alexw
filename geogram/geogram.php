@@ -35,7 +35,7 @@ if (!empty($_GET['location'])){
     		<link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-  <form action="/geogram.php" method="get">
+  <form action="geogram.php" method="get">
     <input type="text" class="text" name="location"/>
     <button type="submit" class="nodebutton" >Submit</button>
   </form>
