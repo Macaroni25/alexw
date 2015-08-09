@@ -8,7 +8,7 @@
 		<title>CSS Testing</title>
 	</head>
 	<body>
-		 <nav class="navbar">
+		 
 		<nav class="navbar">
 			<a id="" class="nodebutton" href="index.html">Home</a>
 			<a id="" class="nodebutton" href="projects.php">Projects</a>
