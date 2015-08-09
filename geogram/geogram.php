@@ -35,6 +35,7 @@ if (!empty($_GET['location'])){
     		<link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+    <h1 class="title">Google Geolocation API with Instagram API</h1>
   <form action="geogram.php" method="get">
     <input type="text" class="nodeinput" name="location"/>
     <button type="submit" class="nodebutton" >Submit</button>
