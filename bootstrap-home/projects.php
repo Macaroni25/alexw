@@ -23,9 +23,9 @@
  
 <div class="panel panel-default">
   <!-- Default panel contents -->
-  <div class="panel-heading">Panel heading</div>
+  <div class="panel-heading">Projects</div>
   <div class="panel-body">
-    <p>...</p>
+    <p>A semi-updated list of all of my projects.</p>
   </div>
 
   <!-- Table -->
@@ -55,7 +55,7 @@ echo "<tr>";
 echo "<td>" . $row['name'] . "</td>";
 echo "<td>" . $row['description'] . "</td>";
 echo "<td>" . $row['status'] . "</td>";
-echo "<td>" . '<a class="nodebutton" href="' . $row['link'] .'">Go to Project</a>' . "</td>";
+echo "<td>" . '<btn class="btn btn-primary" href="' . $row['link'] .'">Go to Project</btn>' . "</td>";
 echo "</tr>";
 }
 
@@ -70,5 +70,6 @@ mysqli_close($con);
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
 
 
