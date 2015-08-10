@@ -1,0 +1,3 @@
+[submodule "nimble.css"]
+	path = nimble.css
+	url = https://github.com/Macaroni25/nimble.css.git
