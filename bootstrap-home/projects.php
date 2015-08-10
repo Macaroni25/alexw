@@ -19,7 +19,7 @@
   </head>
  
  <body>
-
+<div class="container">
  
 <div class="panel panel-default">
   <!-- Default panel contents -->
@@ -62,6 +62,7 @@ echo "</tr>";
 mysqli_close($con);
 ?>
   </table>
+ </div>
  </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
