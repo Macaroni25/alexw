@@ -19,8 +19,8 @@
   </head>
  
  <body>
-<div class="container">
- 
+
+ <br><br>
 <div class="panel panel-default">
   <!-- Default panel contents -->
   <div class="panel-heading">Projects</div>
@@ -63,7 +63,7 @@ mysqli_close($con);
 ?>
   </table>
  </div>
- </div>
+
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
