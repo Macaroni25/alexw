@@ -20,6 +20,11 @@
 				<h1 class="title" name="top">This is my website.</h1>
 				<div class="textbox">
 					<p class="text">Hello, World!</p>
+					<br>
+					<a class="nodebutton" href="https://github.com/Macaroni25">Here's my github profile!</a>
+					<a class="nodebutton" href="https://github.com/Macaroni25">Here's this websites github repo!</a>
+					<br><br>
+					<p class="text"> Add a folder and push to this repo and this website will automatically update with your content.</p>
 				</div>
 			</div>
 			</div>
