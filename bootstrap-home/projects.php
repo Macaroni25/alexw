@@ -20,10 +20,10 @@
  
  <body>
 
- <br><br><br><br>
+ <br><br><br><br><br>
 <div class="panel panel-default">
   <!-- Default panel contents -->
-  <div class="panel-heading">Projects</div>
+  <div class="panel-heading"><h1>Projects</h1></div>
   <div class="panel-body">
     <p>A semi-updated list of all of my projects.</p>
   </div>
