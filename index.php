@@ -11,6 +11,6 @@
     <body>
       </body>
 <?php
-  header( 'Location: home/index.php' ) ; //redirect to /home/index.php
+  header( 'Location: bootstrap-home/index.php' ) ; //redirect to /home/index.php
 ?>
 </html>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Home</title>
+    <title>About.php</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,25 +18,10 @@
     <![endif]-->
   </head>
   <body>
-    <?php
-      include 'navbar.php';
-      ?>
-      
-	  <div class="container-fluid">
-      <div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
-  </div>
-      <?php
-        include 'projects.php';
-        ?>
-		  </div>
+   
+  	<p>About my website</P>
 
 
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
 
 
 
