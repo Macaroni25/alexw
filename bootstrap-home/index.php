@@ -52,6 +52,19 @@ include 'projects.php';
 ?>
 </div>
 </div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">Geogram</h3>
+</div>
+
+
+
+<div class="panel-body">
+<?php
+include '../geogram/geogram.php';
+?>
+</div>
+</div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
