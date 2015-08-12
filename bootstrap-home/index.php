@@ -48,7 +48,7 @@
 
 <div class="panel-body">
 <?php
-include 'prjects.php';
+include 'projects.php';
 ?>
 </div>
 </div>
