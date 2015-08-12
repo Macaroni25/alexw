@@ -22,13 +22,6 @@
 
  <body>
 
- <br><br><br><br><br>
-<div class="panel panel-default">
-  <!-- Default panel contents -->
-  <div class="panel-heading"><h1>Projects</h1></div>
-  <div class="panel-body">
-    <p>A semi-updated list of all of my projects.</p>
-  </div>
 
   <!-- Table -->
   <table class="table">
@@ -64,7 +57,7 @@ echo "</tr>";
 mysqli_close($con);
 ?>
   </table>
- </div>
+
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
