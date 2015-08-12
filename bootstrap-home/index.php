@@ -39,19 +39,20 @@
   </div>
 </div>
 
-      <div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Projects</h3>
-  </div>
-		  </div>
-
-
-  <div class="panel-body">
-    <?php
-      include 'projects.php';
-      ?>
-  </div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">Projects</h3>
 </div>
+
+
+
+<div class="panel-body">
+<?php
+include 'prjects.php';
+?>
+</div>
+</div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
