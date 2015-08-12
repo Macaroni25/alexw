@@ -27,16 +27,29 @@
 	  <div class="container-fluid">
       <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Panel title</h3>
+    <h3 class="panel-title">About</h3>
   </div>
-      <?php
-        include 'projects.php';
-        ?>
+
+
+
+  <div class="panel-body">
+    <?php
+      include 'about.php';
+    ?>
+  </div>
+</div>
+
+      <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Projects</h3>
+  </div>
 		  </div>
 
 
   <div class="panel-body">
-    Panel content
+    <?php
+      include 'projects.php';
+      ?>
   </div>
 </div>
 
