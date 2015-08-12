@@ -9,6 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom Styles -->
+      <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +23,7 @@
     <?php
       include 'navbar.php';
       ?>
-      
+
 	  <div class="container-fluid">
       <div class="panel panel-default">
   <div class="panel-heading">
@@ -37,9 +39,6 @@
     Panel content
   </div>
 </div>
-
-
-
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
