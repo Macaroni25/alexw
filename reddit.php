@@ -1,8 +1,8 @@
 <?php
 
 //Login To Reddit for the first Time (this works)
-$user = $_POST['formName'];
-$pwd = $_POST['password'];
+$user = $_POST['macaroni2552'];
+$pwd = $_POST['Maveric2'];
 
 $r = new HttpRequest('http://www.reddit.com/api/login/USERNAME', HttpRequest::METH_POST);
 $r->enableCookies();
