@@ -1,6 +1,6 @@
 <?php
 
-$dsn = 'mysql://[b3262821ada9ac[:cacb753a]@]us-cdbr-azure-northcentral-a.cleardb.com[:port]/alexwdb/; ';
+$dsn = 'mysql://[b3262821ada9ac[:cacb753a]@]us-cdbr-azure-northcentral-a.cleardb.com/alexwdb/; ';
 $clients = [];
 
 /**
